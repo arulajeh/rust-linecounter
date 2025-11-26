@@ -13,12 +13,12 @@ A high-performance command-line utility for counting non-empty lines in text-bas
 ## Usage
 
 ```bash
-linecount <FILE_PATH> [--buffer-size <BYTES>]
+linecount <FILE_PATH> [--buffer-size=<BYTES>]
 ```
 
 ### Example
 ```bash
-linecount logs/app.log --buffer-size 16384
+linecount logs/app.log --buffer-size=16384
 ```
 
 Output:
